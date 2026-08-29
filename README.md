@@ -1,4 +1,17 @@
-<img src="/public/cover.jpg" alt="Cover image representing Nim, a personal website template" width="100%" />
+<h1>
+  <img
+    src="public/web-app-manifest-192x192.png"
+    alt="Icon"
+    width="40"
+    height="40"
+    align="top"
+  />
+  mortend.co
+</h1>
+
+> This repository is the customized source for [mortend.co](https://mortend.co). It started from the Nim template, but has been substantially reworked.
+
+<img src="public/cover.jpg" alt="Cover image representing Nim, a personal website template" width="100%" />
 
 Nim is a free and open-source personal website template built with Next.js 15, React 19, Tailwind CSS v4, and Motion. Designed for developers, designers, and founders, it combines minimalism with delightful animated components powered by [Motion-Primitives](https://motion-primitives.com).
 
@@ -28,6 +41,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Contributing
 
 Contributions are welcome! Feel free to open issues or submit pull requests to improve Nim.
+
+<img src="public/cc.webp" alt="Patches welcome" width="150" />
 
 ## Deployment
 

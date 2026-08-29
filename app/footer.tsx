@@ -70,10 +70,29 @@ export function Footer() {
   return (
     <footer className="mt-24 border-t border-zinc-100 px-0 py-4 dark:border-zinc-800">
       <div className="flex items-center justify-between">
-        <a href="https://github.com/ibelick/nim" target="_blank">
-          <TextLoop className="text-xs text-zinc-500">
-            <span>© 2024 Nim.</span>
-            <span>Built with Motion-Primitives.</span>
+        <a
+          href="/attributions"
+          className="group rounded-sm focus-visible:ring-2 focus-visible:ring-zinc-400 focus-visible:outline-none"
+        >
+          <TextLoop className="text-xs text-zinc-500 transition-colors group-hover:text-zinc-700 dark:group-hover:text-zinc-300">
+            <span>© {new Date().getFullYear()} mortend.co</span>
+            <span>Hack the planet!</span>
+            <span>© {new Date().getFullYear()} mortend.co</span>
+            <span>All your base belong to us</span>
+            <span>© {new Date().getFullYear()} mortend.co</span>
+            <span>There is no place like 127.0.0.1</span>
+            <span>© {new Date().getFullYear()} mortend.co</span>
+            <span>Ship it, then sharpen it</span>
+            <span>© {new Date().getFullYear()} mortend.co</span>
+            <span>Perfection is achieved at compile time</span>
+            <span>© {new Date().getFullYear()} mortend.co</span>
+            <span>ASCII or die</span>
+            <span>© {new Date().getFullYear()} mortend.co</span>
+            <span>Programs must be written for people</span>
+            <span>© {new Date().getFullYear()} mortend.co</span>
+            <span>Live fast, refactor later</span>
+            <span>© {new Date().getFullYear()} mortend.co</span>
+            <span>Everything is proceeding exactly as expected</span>
           </TextLoop>
         </a>
         <div className="text-xs text-zinc-400">

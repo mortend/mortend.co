@@ -1,6 +1,5 @@
 {
-  "name": "nim",
-  "version": "0.1.0",
+  "name": "mortend.co",
   "private": true,
   "scripts": {
     "dev": "next dev",
